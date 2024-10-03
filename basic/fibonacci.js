@@ -4,11 +4,11 @@ function fibonacci(number) {
     console.log("Enter a valid number");
     return;
   }
-  let arr = [1];
+  let arr = [];
   let s1 = 0,
     s2 = 1;
 
-  for (let i = 1; i < number; i++) {
+  for (let i = 0; i < number; i++) {
     let result = s1 + s2;
     arr = [...arr, result];
     s1 = s2;
